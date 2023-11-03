@@ -1,0 +1,83 @@
+/* Type your code here */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:opsz,wght@6..12,700&family=Poppins&display=swap');
+
+h1,h2{  
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+  background-image: url('https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+  
+}
+
+.logo{
+  text-align: right;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+
+h1{
+  font-size: 70px;
+  text-shadow: 5px 8px 8px rgb(137, 129, 129);
+  margin: 0px;
+}
+
+h2{
+  font-size: 40px;
+  color: rgb(116, 114, 114);
+  margin: 0px;
+}
+
+#thead{
+  background-color: rgb(240, 80, 51);
+  border: none;
+  color: white;
+}
+
+table{
+  background-color: white;
+  font-size:25px;
+  height:100%;
+  width:70%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table,th,td{
+  border-collapse: collapse;
+  padding:10px;
+  font-family: 'nunito';
+  border-bottom: 3px solid rgb(231, 228, 228);
+}
+
+.top{
+  background-color: rgba(250,250,250,255);
+}
+
+
+.batsman{
+  color:#5499f1;
+ 
+}
+
+#comment{
+  color:#a4a1a1;
+}
+
+#imgDiv{
+  position: fixed;
+  top: 400px;
+  left:400px;
+  z-index: 100;
+}
+
+#table{
+  position: relative;
+  width: 65vw;
+}
+
+
